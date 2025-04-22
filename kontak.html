@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak Saya</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-pink-600">Swasita</h1>
+      <nav class="space-x-6 text-sm font-semibold">
+        <a href="index.html" class="hover:text-pink-500 transition">Beranda</a>
+        <a href="tentang.html" class="hover:text-pink-500 transition">Tentang Saya</a>
+        <a href="pendidikan.html" class="hover:text-pink-500 transition">Pendidikan</a>
+        <a href="organisasi.html" class="hover:text-pink-500 transition">Organisasi</a>
+        <a href="kontak.html" class="text-pink-500">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Konten Kontak -->
+  <section class="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-pink-100 to-white">
+    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-6 items-center text-center md:text-left">
+      
+      <!-- Info Kontak -->
+      <div class="space-y-6 md:pr-4" data-aos="fade-right"> <!-- kasih padding kanan -->
+        <h2 class="text-4xl font-bold text-pink-800">Hubungi Saya</h2>
+        <div class="space-y-4 text-lg">
+          <div class="flex items-center justify-center md:justify-start space-x-3">
+            <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M16 12a4 4 0 01-8 0m8 0V8a4 4 0 00-8 0v4m8 0v4a4 4 0 01-8 0v-4" />
+            </svg>
+            <span>: swasitatriwidhyaac@gmail.com</span>
+          </div>
+          <div class="flex items-center justify-center md:justify-start space-x-3">
+            <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 5h2l3 7v5h10v-5l3-7h2" />
+            </svg>
+            <span>: 089674310720</span>
+          </div>
+        </div>
+        <a href="cv.pdf" download class="inline-block bg-pink-600 text-white px-6 py-3 rounded-lg shadow hover:bg-pink-700 transition-all duration-300">
+          Download CV
+        </a>
+      </div>
+  
+      <!-- Formulir -->
+      <form class="space-y-5 md:pl-4" data-aos="fade-left"> <!-- kasih padding kiri -->
+        <input type="text" placeholder="Nama Anda" class="w-full p-3 rounded-lg bg-white shadow border border-gray-300 focus:ring-2 focus:ring-pink-400" />
+        <input type="email" placeholder="Email Anda" class="w-full p-3 rounded-lg bg-white shadow border border-gray-300 focus:ring-2 focus:ring-pink-400" />
+        <textarea placeholder="Pesan Anda" rows="5" class="w-full p-3 rounded-lg bg-white shadow border border-gray-300 focus:ring-2 focus:ring-pink-400"></textarea>
+        <button type="submit" class="bg-pink-600 text-white px-6 py-3 rounded-lg shadow hover:bg-pink-700 transition duration-300">
+          Kirim Pesan
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-white shadow-inner">
+    <div class="flex justify-center gap-6 mb-3">
+      <a href="https://instagram.com/swasitatriwidhyaa" target="_blank" class="text-pink-600 hover:text-pink-800 transition-all text-xl">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/089674310720" target="_blank" class="text-pink-600 hover:text-pink-800 transition-all text-xl">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.youtube.com/@swasitatriwidhyaac" target="_blank" class="text-pink-600 hover:text-pink-800 transition-all text-xl">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="mailto:swasitatriwidhya@email.com" class="text-pink-600 hover:text-pink-800 transition-all text-xl">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+    <p class="text-sm text-gray-600">© 2025 Swasita Tri Widhya Anggita Cahayani</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>
